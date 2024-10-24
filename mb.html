@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Te Amo, Morceguinha</title>
+ <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+ <h1 class="arcoiris">Te Amo, Morceguinha</h1>
+</body>
+</html>
+
+
+CSS (em arquivo separado, "estilo.css"):
+
+
+.arcoiris {
+ font-size: 48px;
+ text-align: center;
+ margin-top: 50px;
+ animation: arcoiris 2s infinite;
+}
+
+@keyframes arcoiris {
+ 0% {
+  color: #ff0000; /* Vermelho */
+ }
+ 16% {
+  color: #ffa500; /* Laranja */
+ }
+ 32% {
+  color: #ffff00; /* Amarelo */
+ }
+ 48% {
+  color: #008000; /* Verde */
+ }
+ 64% {
+  color: #0000ff; /* Azul */
+ }
+ 80% {
+  color: #4b0082; /* Violeta */
+ }
+ 100% {
+  color: #ff0000; /* Vermelho */
+ }
+}
